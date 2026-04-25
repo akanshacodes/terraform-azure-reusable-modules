@@ -76,13 +76,13 @@ terraform init
 ### 4. Review the Plan
 
 ```bash
-terraform plan -var-file="riteshcustom.tfvars"
+terraform plan -var-file="akanshacustom.tfvars"
 ```
 
 ### 5. Apply the Changes
 
 ```bash
-terraform apply -var-file="riteshcustom.tfvars" -auto-approve
+terraform apply -var-file="akanshacustom.tfvars" -auto-approve
 ```
 
 ✅ Resources will now be deployed to Azure.
@@ -117,22 +117,22 @@ terraform state show <resource_name>
 
 * `variables.tf`: All declared variables
 * `terraform.tfvars`: Default values
-* `riteshcustom.tfvars`: Custom values for your environment
+* `akanshacustom.tfvars`: Custom values for your environment
 
 To use custom values:
 
 ```bash
-terraform apply -var-file="riteshcustom.tfvars"
+terraform apply -var-file="akanshacustom.tfvars"
 ```
 
 ---
 
 ## 💬 Author & Contact
 
-Developed by **Ritesh Sharma**
+Developed by **Akansha Saxena*
 💼 DevSecOps Engineer | Azure | Terraform Enthusiast | ADO | Docker | Kubernetes
 
-🔗 [LinkedIn Profile](https://www.linkedin.com/in/riteshatri)
+🔗 [[LinkedIn Profile](https://www.linkedin.com/in/akansha-saxena-96624a302/)
 
 ---
 
