@@ -1,5 +1,5 @@
-# modular-infra-azure-terraform
-Modular Terraform-based Azure infrastructure deployment using best IaC practices.
+# Terraform-Azure-Reusable-Modules
+I have setup end to end Infra provisioning using Declarative Tool terraform for Azure Resources using Modular Approach. 
 
 
 # ☁️ Azure Infrastructure Deployment using Terraform Modules
